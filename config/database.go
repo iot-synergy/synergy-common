@@ -1,4 +1,4 @@
-// Copyright 2023 The Ryan SU Authors (https://github.com/suyuan32). All Rights Reserved.
+// Copyright 2023 . All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -17,8 +17,9 @@ package config
 import (
 	"database/sql"
 	"fmt"
-	"github.com/pkg/errors"
 	"os"
+
+	"github.com/pkg/errors"
 
 	entsql "entgo.io/ent/dialect/sql"
 	_ "github.com/go-sql-driver/mysql"
